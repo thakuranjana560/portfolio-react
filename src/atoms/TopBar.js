@@ -1,0 +1,21 @@
+import styled from "styled-components";
+import LogoComponent from "./LogoComponent";
+
+
+const Box = styled.div`
+  position: fixed;
+  width: 100%;
+  height: 5rem;
+  z-index: 10;
+  background: inherit;
+`;
+const TopBar = () => {
+  return (
+    <Box>
+      <LogoComponent />
+     
+    </Box>
+  );
+};
+
+export default TopBar;
